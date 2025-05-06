@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
+:root {
+  --accent-color: #9e7967;
+  /* Mocha Mousse */
+  --accent-hover: #7f5f50;
+  /* Slightly darker for hover effects */
+  --text-color: #3a1f16;
+  /* Deep brown for text */
+  --bg-color: #f5f0ec;
+  /* Soft, warm background */
+}
+
 body {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
-  background: #eeeeee;
-  color: #2c001e;
+  background: var(--bg-color);
+  color: var(--text-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,24 +24,25 @@ body {
 }
 
 .container {
-  background: #ffffff;
+  background: #f8f4f2;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   max-width: 600px;
   width: 90%;
-  border-left: 8px solid #e95420;
+  border-left: 8px solid var(--accent-color);
 }
+
 
 h1 {
   margin-top: 0;
-  color: #e95420;
+  color: var(--accent-color);
   font-weight: 700;
 }
 
 p {
   font-size: 1.2rem;
-  color: #2c001e;
+  color: var(--text-color);
 }
 
 .social-links {
@@ -39,14 +51,13 @@ p {
 
 .social-links a {
   margin: 0 1rem;
-  color: #2c001e;
+  color: var(--text-color);
   font-size: 1.8rem;
   transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-  color: #e95420;
-  /* Ubuntu orange */
+  color: var(--accent-color);
 }
 
 footer {
@@ -56,14 +67,12 @@ footer {
 }
 
 a {
-  color: #e95420;
-  /* Ubuntu orange */
+  color: var(--accent-color);
   text-decoration: none;
   font-weight: 500;
 }
 
 a:hover {
-  color: #b7410e;
-  /* Darker orange on hover */
+  color: var(--accent-hover);
   text-decoration: underline;
 }
