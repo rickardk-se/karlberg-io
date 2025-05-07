@@ -100,7 +100,9 @@ a:hover {
   min-height: 340px;
   /* ✅ ensure height doesn't collapse */
   margin: 0 auto;
-  tab-size: 4;
+  tab-size: 2;
+  -moz-tab-size: 2;
+  /* for Firefox */
 }
 
 .terminal-output {
