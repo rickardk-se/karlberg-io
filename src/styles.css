@@ -96,7 +96,7 @@ a:hover {
   display: block;
   width: 100%;
   /* ✅ fixed maximum width */
-  min-height: 220px;
+  min-height: 100px;
   /* ✅ ensure height doesn't collapse */
   margin: 0 auto;
   tab-size: 2;
@@ -110,6 +110,7 @@ a:hover {
 
 .terminal-output {
   margin-top: -2rem;
+  margin-bottom: -2rem;
   padding: 1rem;
   line-height: 1.2;
   white-space: pre-wrap;
