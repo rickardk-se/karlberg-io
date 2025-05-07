@@ -96,7 +96,7 @@ a:hover {
   display: block;
   width: 100%;
   /* ✅ fixed maximum width */
-  min-height: 340px;
+  min-height: 220px;
   /* ✅ ensure height doesn't collapse */
   margin: 0 auto;
   tab-size: 2;
