@@ -26,7 +26,7 @@ body {
 
 .container {
   background: #f8f4f2;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   max-width: 700px;
@@ -93,7 +93,7 @@ a:hover {
   text-align: left;
   font-size: 0.85rem;
   white-space: pre-wrap;
-  box-shadow: 3px 3px 0 #333;
+  box-shadow: -3px 3px 0 #5d5d5d;
   display: block;
   width: 100%;
   /* ✅ fixed maximum width */
