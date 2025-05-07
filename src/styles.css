@@ -91,12 +91,13 @@ a:hover {
   font-family: 'Ubuntu Mono', monospace;
   border-radius: 4px;
   text-align: left;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   white-space: pre-wrap;
   display: block;
   width: 100%;
   /* ✅ fixed maximum width */
-  min-height: 100px;
+  height: 14.54rem;
+  line-height: 1.2;
   /* ✅ ensure height doesn't collapse */
   margin: 0 auto;
   tab-size: 2;
