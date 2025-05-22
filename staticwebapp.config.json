@@ -4,12 +4,5 @@
       "rewrite": "/404.html",
       "statusCode": 404
     }
-  },
-  "routes": [
-    {
-      "route": "www.karlberg.io",
-      "redirect": "karlberg.io",
-      "statusCode": 301
-    }
-  ]
+  }
 }
